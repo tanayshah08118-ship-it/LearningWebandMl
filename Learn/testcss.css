@@ -1,5 +1,25 @@
 body{
-    background-color: rgb(0, 0, 0); 
-    font-style: italic;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+    h1{
     color :rgb(128, 17, 188);
+    font-style:italic;
+    }
+    h2{
+        color: rgb(0, 0, 0);
+        font-style:italic;
+    }
+    h3{
+        color: rgb(0,0,0);
+        font-style:bold; 
+    }
+    th{
+        color: rgb(19, 40, 124);
+        font-size:large;
+        font-style:italic;
+    }
+    td{
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+    }
 }
