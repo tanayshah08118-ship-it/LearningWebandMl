@@ -1,0 +1,13 @@
+body {
+    background-image: url("BackgroundTemp/FeedbackBackground.jpg");
+    background-size: 1536px,515px;          
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-attachment: fixed;    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;          
+    min-height: 100vh;               
+    color: rgb(0, 0, 0);
+}
+
