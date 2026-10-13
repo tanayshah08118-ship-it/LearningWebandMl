@@ -8,16 +8,18 @@
 </head>
 <body>
     <h1>Feedback Form</h1>
-    <form action="post" >
-        <label for="name" >Name</label><br>
-        <input type="text" id="name" name="name" , placeholder="Ex: Ayush Kumar " ><br>
-        <label for="email">Email</label><br>
-        <input type="varchar" name="email" , placeholder="Ex: xyz@gmail.com " ><br>
-        <lable for="contact number" >Contact Number</lable><br>
-        <input type="digit" id="contact number" col="1" row="10" , placeholder="Ex: +91..........(optional)"><br>
+    <form action="post" style="text-align: center;">
+        <label for="name" >Name</label><br><br>
+        <input type="text" id="name" name="name" , placeholder="Ex: Ayush Kumar " ><br><br>
+        <label for="email">Email</label><br><br>
+        <input type="varchar" name="email" , placeholder="Ex: xyz@gmail.com " ><br><br>
+        <lable for="contact number" >Contact Number</lable><br><br>
+        <input type="digit" id="contact number" col="1" row="10" , placeholder="Ex: +91..........(optional)"><br><br>
+        <label for="rating">Rating</label><br><br>
+        <input type="digit" id="rating" min="1" max="5" col="10" row="1" , placeholder="Ex:4"><br><br>
         <label for="feedback">Feedback</label><br>
-        <textarea name="feedback" id="feedback" cols="30" rows="10" , placeholder="Write your feedback here..."></textarea><br><br>
-        <button type="submit" value="Submit Feedback" href="Submit">Submit Feedback</button>
+        <textarea style="box-sizing:border-box;" name="feedback" id="feedback" cols="30" rows="10" , placeholder="Write your feedback here..."></textarea><br><br>
+        <button type="submit" value="Submit Feedback">Submit Feedback</button><br>
     </form>
 </body>
 </html>
