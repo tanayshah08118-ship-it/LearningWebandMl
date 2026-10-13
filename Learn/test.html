@@ -3,30 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="This is a test page for LearnerWeb." content="This is a test page for LearnerWeb.">
+    <meta name="description" content="This is a test page for LearnerWeb.">
     <title>LearnerWeb</title>
     <link rel="stylesheet" href="testcss.css">
-    <link rel="icon" type="image/logo/icon" href="images/Screenshot 2026-10-12 194547.png">
+    <!-- Updated path to images/logo/... and type to image/png -->
+    <link rel="icon" type="image/png" href="images/logo/Screenshot 2026-10-12 194547.png">
 </head>
 <body>
+    <!-- Removed the standalone <img> tag since the background is now rendered via testcss.css -->
     <h1>Welcome to LearnerWeb</h1>
     <h3>This is a test page for LearnerWeb.</h3>
     
     <h2>This is the following list of features that LearnerWeb has (Must Learn):</h2>
     <ul type="circle">
-        <li><a target="_blank" href="https://www.w3schools.com/html/default.asp" , alt="Html website">Learn HTML</a></li>
-        <li><a target="_blank" href="https://www.w3schools.com/css/default.asp">Learn CSS</a></li>
-        <li><a target="_blank" href="https://www.w3schools.com/js/default.asp">Learn JavaScript</a></li>
-        <li><a target="_blank" href="https://www.w3schools.com/python/default.asp">Learn Python</a></li>
-        <li><a target="_blank" href="https://www.w3schools.com/python/numpy/default.asp">NumPy</a></li>
-        <li><a target="_blank" href="https://www.w3schools.com/python/pandas/default.asp">Pandas</a></li>
+        <li><a target="_blank" href="https://www.w3schools.com/html/default.asp" title="Learn Html">Learn HTML</a></li>
+        <li><a target="_blank" href="https://www.w3schools.com/css/default.asp" title="Learn CSS">Learn CSS</a></li>
+        <li><a target="_blank" href="https://www.w3schools.com/js/default.asp" title="Learn JavaScript">Learn JavaScript</a></li>
+        <li><a target="_blank" href="https://www.w3schools.com/python/default.asp" title="Learn Python">Learn Python</a></li>
+        <li><a target="_blank" href="https://www.w3schools.com/python/numpy/default.asp" title="Learn NumPy">NumPy</a></li>
+        <li><a target="_blank" href="https://www.w3schools.com/python/pandas/default.asp" title="Learn Pandas">Pandas</a></li>
     </ul>    
     <p>Go from complete beginner to full-stack creator. Learn to structure the web with HTML, design stunning interfaces with CSS, build interactive experiences with JavaScript, and power the backend with Python—all through hands-on, project-based lessons designed to get you coding from day one.</p>
     <h2>More to Explore:</h2>
     <ul type="square">
-        <li><a href="https://www.w3schools.com/mysql/default.asp">MySQL</a></li>
-        <li><a href="https://www.w3schools.com/cpp/default.asp">C++</a></li>
-        <li><a href="https://www.w3schools.com/dsa/index.php">DSA (Data Structure and Algorithms)</a></li>
+        <li><a href="https://www.w3schools.com/mysql/default.asp" title="Learn MySQL">MySQL</a></li>
+        <li><a href="https://www.w3schools.com/cpp/default.asp" title="Learn C++">C++</a></li>
+        <li><a href="https://www.w3schools.com/dsa/index.php" title="Learn DSA">DSA (Data Structure and Algorithms)</a></li>
     </ul>        
     <p>Moving beyond basic syntax is what separates good coders from great engineers. We demystify the three pillars of advanced computing—DSA, NumPy, and Pandas—using visual explanations and step-by-step exercises. Instead of getting lost in abstract math, you will learn by optimizing real code, manipulating live datasets, and solving the exact algorithmic puzzles used by top tech companies.</p>
     <table>
@@ -36,21 +38,24 @@
             <th>Hackathons</th>  
         </tr>
         </thead>
-        <tbody>
+        <tbody >
         <tr>
             <td>Sharpen your algorithmic thinking and speed under pressure with Competitive Programming. Designed to push your problem-solving abilities to the limit, competitive coding challenges you to write highly optimized, bug-free solutions to complex mathematical and logical puzzles within strict time and memory constraints. By practicing through timed contests and progressive difficulty tiers, you will master advanced data structures, drastically improve your coding efficiency, and build the exact mental agility needed to dominate coding competitions and technical interviews.</td>
             <td>Turn your ideas into working prototypes and experience the thrill of rapid innovation through Hackathons. Whether you are building a full-stack web app or a data-driven tool, hackathons challenge you to collaborate, brainstorm, and code a functional project from scratch under tight deadlines. Our platform prepares you to go from concept to deployment quickly, helping you combine your frontend, backend, and data skills to solve real-world problems, build a standout portfolio, and pitch your creations with confidence.</td>
+        </tr>
         </tbody>   
     </table>
     <ol type="Disc">
         <li>How to use this page:
         <a target="_blank" href="https://github.com/tanayshah08118-ship-it/LearningWebandMl"><br>GitHub Link</a></li>
-        <li>For more information:<a target="_blank" href="Contact.html"><br>Contact</a></li>
-
+        <li>For more information:<a target="_self" href="TestContact.html"><br>Contact</a></li>
+        <li>Rate Us:<a target="_blank" href="Feedback.html" title="Feedback"><br>Feedback</a></li>
     </ol>
-        <footer>
-            <p>© 2026 LearnerWeb. All rights reserved.</p>
-        </footer>                   
-    <script> src:"testscript.js" </script>
+    <footer>
+        <p>© 2026 LearnerWeb. All rights reserved.</p>
+    </footer>                   
+    <!-- Fixed script tag syntax from <script> src="..." to <script src="..."> -->
+    <script src="testscript.js"></script>
+    
 </body>
 </html>

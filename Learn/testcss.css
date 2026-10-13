@@ -1,25 +1,39 @@
-body{
-    background-color: rgb(255, 255, 255); 
+body {
+    background-image: url("BackgroundTemp/Background.png");
+    background-size: cover;          
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-attachment: fixed;    
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;          
+    min-height: 100vh;               
     color: rgb(0, 0, 0);
-    h1{
-    color :rgb(128, 17, 188);
-    font-style:italic;
-    }
-    h2{
-        color: rgb(0, 0, 0);
-        font-style:italic;
-    }
-    h3{
-        color: rgb(0,0,0);
-        font-style:bold; 
-    }
-    th{
-        color: rgb(19, 40, 124);
-        font-size:large;
-        font-style:italic;
-    }
-    td{
-        color: rgb(0, 0, 0);
-        border: 2px solid black;
-    }
+}
+
+h1 {
+    color: rgb(128, 17, 188);
+    font-style: italic;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;           
+}
+
+th {
+    color: rgb(19, 40, 124);
+    font-size: large;
+    font-style: italic;
+}
+
+td {
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
 }
