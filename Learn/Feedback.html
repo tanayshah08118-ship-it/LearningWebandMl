@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Feedback.css">
+    <link rel="icon" type="image/png" href="images/logo/Screenshot 2026-10-12 194547.png">
     <title>Feedback Form</title>
 </head>
 <body>
@@ -29,18 +30,27 @@
             <label for="feedback">Feedback</label><br>
         </div>
         <div>
+            <h2>Did you enjoy the site?</h2>
             <input type="radio" id="Yes" name="answer" value="Yes">
             <label for="Yes">Yes</label>
             <input type="radio" id="No" name="answer" value="No">
             <label for="No">No</label>
+            <h2>What Can we improve</h2>
+            <select name="improvements">
+                <option value="Need more interactive interfaces">Need more interactive interfaces</option>
+                <option value="More lessons to learn">More lessons to learn</option>
+                <option value="Feedback Form improvement">Other Query</option>
+            </select>
         </div> 
         <div>
-            <textarea style="box-sizing:border-box;" name="feedback" id="feedback" cols="30" rows="10" , placeholder="Write your feedback here..."></textarea>
+            <br><textarea style="box-sizing:border-box;" name="feedback" id="feedback" cols="30" rows="10" , placeholder="Write your feedback here..."></textarea>
         </div>
         <div>
             <br><button type="submit" value="Submit Feedback">Submit Feedback</button>
         </div>
-
+        <footer>
+            <p>&copy; 2026 LearnerWeb. All rights reserved. </p>
+        </footer>
     </form>
 </body>
 </html>

@@ -3,12 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for LearnerWeb. Reach out for inquiries, support, or feedback.">
     <link rel="stylesheet" href="Contact.css">
-    <title>Contact</title>
-</head>
-    This  is a contact page for LearnerWeb. You can reach out to us for any inquiries, support, or feedback.
+    <link rel="icon" type="image/png" href="images/logo/Screenshot 2026-10-12 194547.png">
+    <title>Contact - LearnerWeb</title>
 </head>
 <body>
-    
+    <h1 id="contact" class="Contacthead">Contact Us</h1>
+    <p>This is a contact page for LearnerWeb. You can reach out to us for any inquiries, support, or feedback.</p>
+
+    <h2>Get In Touch</h2>
+    <form action="post" style="text-align: center;">
+        <div>
+            <label for="fullname">Full Name</label><br>
+            <input type="text" id="fullname" name="fullname" class="fullname" placeholder="Ex: Ayush Kumar" >
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" class="email" placeholder="Ex: xyz@gmail.com">
+        </div>
+        <div>
+            <label for="subject">Subject</label><br>
+            <input type="text" id="subject" name="subject" class="subject" placeholder="Ex: Course Inquiry">
+        </div>
+        <div>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" cols="30" rows="8" class="message" placeholder="Write your message here..."></textarea>
+        </div>
+        <div>
+            <br><button type="submit" value="Send Message" id="SendMessage" class="SendMessage">Send Message</button>
+        </div>
+    </form>
+
+    <h2>Other Ways to Reach Us</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Platform</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>GitHub</td>
+                <td><a target="_blank" href="https://github.com/tanayshah08118-ship-it/LearningWebandMl/tree/Learner">LearnerWeb Repository</a></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><a href="mailto:learnerweb@example.com">learnerweb@gamil.com</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li><a target="_self" href="test.html">Back to Home</a></li>
+        <li><a target="_self" href="Feedback.html">Give Feedback</a></li>
+    </ul>
+
+    <footer>
+        <p>&copy; 2026 LearnerWeb. All rights reserved.</p>
+    </footer>
 </body>
 </html>
