@@ -9,17 +9,38 @@
 <body>
     <h1>Feedback Form</h1>
     <form action="post" style="text-align: center;">
-        <label for="name" >Name</label><br><br>
-        <input type="text" id="name" name="name" , placeholder="Ex: Ayush Kumar " ><br><br>
-        <label for="email">Email</label><br><br>
-        <input type="varchar" name="email" , placeholder="Ex: xyz@gmail.com " ><br><br>
-        <lable for="contact number" >Contact Number</lable><br><br>
-        <input type="digit" id="contact number" col="1" row="10" , placeholder="Ex: +91..........(optional)"><br><br>
-        <label for="rating">Rating</label><br><br>
-        <input type="digit" id="rating" min="1" max="5" col="10" row="1" , placeholder="Ex:4"><br><br>
-        <label for="feedback">Feedback</label><br>
-        <textarea style="box-sizing:border-box;" name="feedback" id="feedback" cols="30" rows="10" , placeholder="Write your feedback here..."></textarea><br><br>
-        <button type="submit" value="Submit Feedback">Submit Feedback</button><br>
+        <div>
+            <label for="name" >Name</label><br>
+            <input type="text" id="name" name="name" , placeholder="Ex: Ayush Kumar " >
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="varchar" name="email" , placeholder="Ex: xyz@gmail.com " >
+        </div>    
+        <div>    
+            <label for="contact number" >Contact Number</label><br>
+            <input type="digit" id="contact number" col="1" row="10" , placeholder="Ex: +91..........(optional)">
+        </div>
+        <div>  
+            <label for="rating">Rating</label><br>
+            <input type="digit" min="1" max="5" col="10" row="1" , placeholder="Ex:4">
+        </div> 
+        <div>   
+            <label for="feedback">Feedback</label><br>
+        </div>
+        <div>
+            <input type="radio" id="Yes" name="answer" value="Yes">
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="answer" value="No">
+            <label for="No">No</label>
+        </div> 
+        <div>
+            <textarea style="box-sizing:border-box;" name="feedback" id="feedback" cols="30" rows="10" , placeholder="Write your feedback here..."></textarea>
+        </div>
+        <div>
+            <br><button type="submit" value="Submit Feedback">Submit Feedback</button>
+        </div>
+
     </form>
 </body>
 </html>

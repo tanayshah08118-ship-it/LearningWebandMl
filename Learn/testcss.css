@@ -8,31 +8,39 @@ body {
     padding: 0;
     box-sizing: border-box;          
     min-height: 100vh;               
-    color: rgb(0, 0, 0);
+    color: rgb(224, 224, 230);
 }
 
 h1 {
-    color: rgb(128, 17, 188);
+    color: rgb(255, 200, 87);
     font-style: italic;
+    margin-top: 0;
+    padding-top: 10px;
 }
 
 h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(180, 220, 255);
     font-style: italic;
 }
 
 h3 {
-    color: rgb(0, 0, 0);
+    color: rgb(200, 210, 230);
     font-weight: bold;           
 }
 
 th {
-    color: rgb(19, 40, 124);
+    color: rgb(100, 240, 220);
     font-size: large;
     font-style: italic;
 }
 
 td {
-    color: rgb(0, 0, 0);
-    border: 2px solid black;
+    color: rgb(224, 224, 230);
+    border: 2px solid rgba(100, 240, 220, 0.4);
+}
+
+
+footer {
+    margin-bottom: 0;
+    padding-bottom: 10px;
 }

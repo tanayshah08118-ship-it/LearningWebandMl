@@ -1,34 +1,44 @@
 h1{
+    margin-top: 0 ;
     text-align: center;
-    background-color: rgba(127, 31, 130, 0.5);
-    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(255, 200, 87, 0.25);
+    border: 2px solid rgba(255, 200, 87, 0.5);
     border-radius: 10px;
     font-style: italic;
 }
 body {
-    background-color:rgba(3, 26, 47, 0.432);           
+    background-image: url("BackgroundTemp/Feedback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color:rgba(15, 15, 35, 0.95);           
     box-sizing: border-box;          
     min-height: 100vh;               
-    color: rgb(0, 0, 0);
+    color: rgb(224, 224, 230);
 }
 input{
     padding: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(30, 30, 50);
     border-radius: 5px;
     font-size: large;
     font-style: bold;
 }
 button{
     padding: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(15, 15, 35);
     border-radius: 5px;
     font-size: large;
     font-style: italic;
 }
 label{
     padding:0px;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 220, 255);
     border-radius: 5px;
     font-size: xx-large;
     font-style: italic;
+}
+textarea{
+    text-align: center;
+    background-color: rgb(30, 30, 60);
 }
